@@ -24,7 +24,9 @@ export default function NavigationBar() {
     <div className="flex justify-between items-center">
       <ul className="flex space-x-4">
         {navItems.map((item: INavItems) => {
-          return <li className="cursor-pointer">{item?.title}</li>;
+          return (
+            <li className="cursor-pointer hover:underline decoration-zinc-400">{item?.title}</li>
+          );
         })}
       </ul>
       <ModeToggle />
