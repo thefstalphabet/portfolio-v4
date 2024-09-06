@@ -1,12 +1,17 @@
-import { ModeToggle } from "./components/mode-toggle";
+import { Route, Routes } from "react-router-dom";
+import NavigationBar from "./components/ui/navigation-bar";
+import routes, { IRoutes } from "./lib/routes";
 
 export default function App() {
   return (
-    <div>
-      <h1 className="text-3xl font-bold underline">
-      Hello world!
-    </h1>
-    <ModeToggle/>
+    <div className="mx-64 my-10">
+      <NavigationBar />
+      <Routes>
+        {routes.map((route: IRoutes) => {
+          const { path, element } = route;
+          return <Route key={path} element={element} path={path} />;
+        })}
+      </Routes>
     </div>
-  )
+  );
 }
