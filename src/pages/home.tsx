@@ -1,4 +1,5 @@
 import { Badge } from "../components/ui/badge";
+import Connect from "../components/ui/connect";
 
 export default function Home() {
   return (
@@ -54,6 +55,9 @@ export default function Home() {
           />
         </div>
       </main>
+      <footer>
+        <Connect/>
+      </footer>
     </div>
   );
 }
