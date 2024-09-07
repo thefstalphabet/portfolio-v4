@@ -4,7 +4,8 @@ import routes, { IRoutes } from "./lib/routes";
 
 export default function App() {
   return (
-    <div className="mx-64 my-16 grid gap-20">
+    // min-w-[55%] w-[55%] sm:w-[100%]
+    <div className="my-16 grid gap-20 mx-auto px-5 w-[100%] lg:w-[55%] lg:px-0">
       <NavigationBar />
       <Routes>
         {routes.map((route: IRoutes) => {
