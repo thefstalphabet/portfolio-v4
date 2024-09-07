@@ -6,15 +6,15 @@ interface INavItems {
 }
 const navItems: INavItems[] = [
   {
-    title: "home",
+    title: "Home",
     path: "/home",
   },
   {
-    title: "cv",
+    title: "CV",
     path: "/cv",
   },
   {
-    title: "products",
+    title: "Products",
     path: "/products",
   },
 ];

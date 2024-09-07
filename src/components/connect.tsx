@@ -7,15 +7,15 @@ interface IConnectItems {
 }
 const connectItems: IConnectItems[] = [
   {
-    title: "twitter",
+    title: "Twitter",
     path: "https://twitter.com/thefstalphabet",
   },
   {
-    title: "mail",
+    title: "Mail",
     path: "akashpatel10000@gmail.com",
   },
   {
-    title: "linkedin",
+    title: "Linkedin",
     path: "https://www.linkedin.com/in/thefstalphabet",
   },
 ];
