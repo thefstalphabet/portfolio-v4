@@ -1,12 +1,12 @@
 export default function Education() {
   return (
     <div>
-          <h4 className="text-m font-bold">Education</h4>
+          <h4 className="font-bold">Education</h4>
           <hr className="mt-2 mb-0.5 border-neutral-600"/>
           <div className="text-sm">
             <div className="flex justify-between">
               <div>
-                <h5 className="font-bold">
+                <h5 className="font-semibold">
                   Takshshila Institute of Engineering & Technology
                 </h5>
                 <p className="text-neutral-600">Computer Science Bachelors</p>
@@ -19,7 +19,7 @@ export default function Education() {
             </div>
             <div className="flex justify-between">
               <div>
-                <h5 className="font-bold">
+                <h5 className="font-semibold">
                   MKD Public Higher Secondary School
                 </h5>
                 <p className="text-neutral-600">12th M.P Board</p>

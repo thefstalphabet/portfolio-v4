@@ -6,7 +6,7 @@ export default function Projects() {
       <hr className="mt-2 mb-0.5 border-neutral-600" />{" "}
       <div className="text-sm">
         <div>
-          <h5 className="font-bold">
+          <h5 className="font-semibold">
             Lunch Box |{" "}
             <Link
               to="https://tiffin-box.netlify.app/"
@@ -22,7 +22,7 @@ export default function Projects() {
           </ul>
         </div>
         <div>
-          <h5 className="font-bold">
+          <h5 className="font-semibold">
             Chat Freely |{" "}
             <Link
               to="https://github.com/thefstalphabet/chat-freely-client"
@@ -43,7 +43,7 @@ export default function Projects() {
           </ul>
         </div>
         <div>
-          <h5 className="font-bold">
+          <h5 className="font-semibold">
             Moviepedia |{" "}
             <Link
               to="https://github.com/thefstalphabet/moviepedia"

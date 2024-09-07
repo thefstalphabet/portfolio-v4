@@ -1,7 +1,7 @@
 import { Link } from "react-router-dom";
 import { useRef } from "react";
 import { Button } from "../../components/ui/button";
-import { PiDownloadSimple } from "react-icons/pi";
+import { MdFileDownload } from "react-icons/md";
 import html2pdf from "html2pdf.js";
 import Education from "./education";
 import Experience from "./experience";
@@ -32,7 +32,7 @@ export default function CV() {
         className="inline fixed right-5 bottom-5"
         onClick={handleGeneratePDF}
       >
-        <PiDownloadSimple />
+        <MdFileDownload />
       </Button>
       <div className="grid gap-4 pb-1 " ref={printRef}>
         <header className="text-center">

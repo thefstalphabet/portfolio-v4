@@ -6,7 +6,7 @@ export default function Experience() {
       <div className="text-sm">
         <div>
           <div className="flex justify-between">
-            <h5 className="font-bold">
+            <h5 className="font-semibold">
               TIAKJ | Software Developer Engineer - 1
             </h5>
             <p>Remote | March 2022 - June 2024</p>
@@ -31,7 +31,7 @@ export default function Experience() {
 
         <div>
           <div className="flex justify-between">
-            <h5 className="font-bold">
+            <h5 className="font-semibold">
               GirlScript Summer of Code | Contributor
             </h5>
             <p>Remote | March 2022 - May 2022</p>
@@ -46,7 +46,7 @@ export default function Experience() {
 
         <div>
           <div className="flex justify-between">
-            <h5 className="font-bold">
+            <h5 className="font-semibold">
               aNumak & Company | Full Stack Developer
             </h5>
             <p>Remote | July 2021 - October 2021</p>
