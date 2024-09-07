@@ -1,4 +1,4 @@
-import { GoArrowUpRight } from "react-icons/go";
+import { HiMiniArrowUpRight } from "react-icons/hi2";
 import { Link } from "react-router-dom";
 
 interface IConnectItems {
@@ -21,8 +21,8 @@ const connectItems: IConnectItems[] = [
 ];
 export default function Connect() {
   return (
-    <div className="grid gap-5">
-      <h2 className="text-xl font-medium">Connect</h2>
+    <div className="grid gap-5 mt-12">
+      <h2 className="text-lg font-medium">Connect</h2>
       <ul className="flex space-x-4">
         {connectItems.map((item: IConnectItems) => {
           return (
@@ -31,7 +31,7 @@ export default function Connect() {
               target="_blank"
               className="cursor-pointer hover:underline decoration-zinc-400 flex items-center"
             >
-              <GoArrowUpRight className="text-lg" />
+              <HiMiniArrowUpRight className="text-lg " />
               {item?.title}
             </Link>
           );

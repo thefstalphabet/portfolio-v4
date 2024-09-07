@@ -10,7 +10,7 @@ export default function Bio() {
         <h1 className="text-2xl font-medium text-heading">
           Hi, I'm Akash Patel
         </h1>
-        <h6 className="text-lg text-zinc-400">Software Engineer</h6>
+        <h6 className="text-lg text-neutral-500">Software Engineer</h6>
       </header>
       <main>
         <p>
