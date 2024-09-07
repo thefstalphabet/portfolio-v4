@@ -8,8 +8,15 @@ export default function Home() {
     <div className="grid gap-7">
       <Bio />
       <ImagesGrid />
-      <Job/>
+      <Job />
       <Connect />
+      <footer className="grid gap-3 mt-4">
+        <p className="text-xs text-neutral-500">Portfolio heavily inspired by leerob's one.</p>
+        <img
+          className="w-10 scale-x-[-1]"
+          src="https://cdn.betterttv.net/emote/5f1b0186cf6d2144653d2970/3x.webp"
+        />
+      </footer>
     </div>
   );
 }
