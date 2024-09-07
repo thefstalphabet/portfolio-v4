@@ -34,7 +34,7 @@ export default function CV() {
       >
         <PiDownloadSimple />
       </Button>
-      <div className="grid gap-4 pb-1 font-serif" ref={printRef}>
+      <div className="grid gap-4 pb-1 " ref={printRef}>
         <header className="text-center">
           <h1 className="text-3xl font-bold">AKASH PATEL</h1>
           <div className="flex justify-center gap-2 mt-2 flex-wrap text-sm">
