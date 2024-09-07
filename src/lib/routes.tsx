@@ -1,3 +1,4 @@
+import CV from "../pages/cv/cv";
 import Home from "../pages/home";
 
 export interface IRoutes {
@@ -8,6 +9,10 @@ const routes: Array<IRoutes> = [
   {
     path: "/",
     element: <Home />,
+  },
+  {
+    path: "cv",
+    element: <CV />,
   },
 ];
 

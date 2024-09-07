@@ -1,3 +1,4 @@
+import { Link } from "react-router-dom";
 import { ModeToggle } from "../app-theme/mode-toggle";
 
 interface INavItems {
@@ -7,7 +8,7 @@ interface INavItems {
 const navItems: INavItems[] = [
   {
     title: "Home",
-    path: "/home",
+    path: "/",
   },
   {
     title: "CV",
@@ -25,7 +26,7 @@ export default function NavigationBar() {
       <ul className="flex space-x-4">
         {navItems.map((item: INavItems) => {
           return (
-            <li className="cursor-pointer hover:underline decoration-zinc-400">{item?.title}</li>
+            <Link to={item?.path} className="cursor-pointer hover:underline decoration-zinc-400">{item?.title}</Link>
           );
         })}
       </ul>
