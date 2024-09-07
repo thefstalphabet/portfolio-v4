@@ -12,7 +12,7 @@ const connectItems: IConnectItems[] = [
   },
   {
     title: "Mail",
-    path: "akashpatel10000@gmail.com",
+    path: "mailto:akashpatel10000@gmail.com",
   },
   {
     title: "Linkedin",

@@ -4,33 +4,23 @@ import { Skeleton } from "./ui/skeleton";
 
 export default function ImagesGrid() {
   return (
-    <div className="columns-3 gap-4 space-y-4">
-      <Skeleton
-        className={`min-h-[170px] h-[170px] w-full rounded-xl flex justify-center items-center text-zinc-400`}
-      >
+    <div className="w-full grid grid-cols-2 sm:grid-cols-3 grid-rows-5 sm:grid-rows-3 h-[668px] sm:h-[800px] gap-4 slide-in-delay w-ful">
+      <Skeleton className="flex justify-center items-center">
         Empty for Now
       </Skeleton>
-      <img
-        className="rounded-md object-cover h-full w-full"
-        src={mirrorSelfie}
-      />
-      <img
-        className="rounded-md object-cover h-full w-full"
-        src={afterWorkoutSelfie}
-      />
-      <Skeleton
-        className={`min-h-[170px] h-[170px] w-full rounded-xl flex justify-center items-center text-zinc-400`}
-      >
+      <div className="w-full h-full flex-center bento-item row-span-2 flex-center">
+        <img src={mirrorSelfie} className="object-cover h-full w-full" />
+      </div>
+      <Skeleton className="flex justify-center items-center">
         Empty for Now
       </Skeleton>
-      <Skeleton
-        className={`min-h-[170px] h-[170px] w-full rounded-xl flex justify-center items-center text-zinc-400`}
-      >
+      <Skeleton className="flex justify-center items-center bento-item row-span-2 animate-pulse flex-center">
         Empty for Now
       </Skeleton>
-      <Skeleton
-        className={`min-h-[170px] h-[295px] w-full rounded-xl flex justify-center items-center text-zinc-400`}
-      >
+      <div className="w-full h-full flex-center bento-item row-span-2 flex-center">
+        <img src={afterWorkoutSelfie} className="object-cover h-full w-full" />
+      </div>
+      <Skeleton className="flex justify-center items-center">
         Empty for Now
       </Skeleton>
     </div>

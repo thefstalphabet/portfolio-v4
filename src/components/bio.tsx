@@ -25,17 +25,17 @@ export default function Bio() {
           I specialize in building web based applications, usually having to
           pick between my two favorites:{" "}
           <Badge variant="outline">
-            <img className="w-4 mr-2" src={reactLogo} alt="react logo" />
+            <img className="w-3 mr-2" src={reactLogo} alt="react logo" />
             React
           </Badge>{" "}
           and{" "}
           <Badge variant="outline">
-            <img className="w-4 mr-2" src={vueLogo} alt="vue logo" />
+            <img className="w-3 mr-2" src={vueLogo} alt="vue logo" />
             Vue
           </Badge>
           . But no matter what,{" "}
           <Badge variant="outline">
-            <img className="w-4 mr-2" src={supabaseLogo} alt="supabase logo" />
+            <img className="w-3 mr-2" src={supabaseLogo} alt="supabase logo" />
             Supabase
           </Badge>{" "}
           is always my go-to for the backend.
