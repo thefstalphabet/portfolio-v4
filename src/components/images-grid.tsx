@@ -4,7 +4,7 @@ import { Skeleton } from "./ui/skeleton";
 
 export default function ImagesGrid() {
   return (
-    <div className="w-full grid grid-cols-2 sm:grid-cols-3 grid-rows-5 sm:grid-rows-3 h-[668px] sm:h-[800px] gap-4 slide-in-delay w-ful">
+    <div className="w-full grid grid-cols-2 sm:grid-cols-3 grid-rows-4 sm:grid-rows-3 h-[668px] sm:h-[800px] gap-4 slide-in-delay w-ful">
       <Skeleton className="flex justify-center items-center">
         Empty for Now
       </Skeleton>

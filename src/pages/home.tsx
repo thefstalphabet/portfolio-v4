@@ -14,7 +14,7 @@ export default function Home() {
         <p className="text-xs text-neutral-500">Portfolio heavily inspired by leerob's one.</p>
         <img
           className="w-10 scale-x-[-1]"
-          src="https://cdn.betterttv.net/emote/5f1b0186cf6d2144653d2970/3x.webp"
+          src="https://cdn.betterttv.net/emote/6040182a306b602acc596862/3x.webp"
         />
       </footer>
     </div>
