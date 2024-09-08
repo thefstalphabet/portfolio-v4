@@ -1,6 +1,7 @@
 import CV from "../pages/cv/cv";
 import Home from "../pages/home";
 import PageNotFound from "../pages/page-not-found";
+import Products from "../pages/products";
 
 export interface IRoutes {
   path: string;
@@ -18,6 +19,10 @@ const routes: Array<IRoutes> = [
   {
     path: "cv",
     element: <CV />,
+  },
+  {
+    path: "/products",
+    element: <Products />,
   },
 ];
 

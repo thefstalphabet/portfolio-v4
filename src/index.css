@@ -3,8 +3,8 @@
 @tailwind utilities;
 @layer base {
   :root {
-    --background: 0 0% 100%;
-    --foreground: 0 0% 3.9%;
+    --background: 210, 20%, 98%; /* 0 0% 100% */
+    --foreground: 0, 0%, 20%; /* 0 0% 3.9% */
     --card: 0 0% 100%;
     --card-foreground: 0 0% 3.9%;
     --popover: 0 0% 100%;
@@ -30,7 +30,7 @@
     --radius: 0.5rem
   }
   .dark {
-    --background: 0 0% 3.9%;
+    --background: 0.0, 3.0303030303030307%, 6.470588235294117%; /* 0 0% 3.9% */
     --foreground: 0 0% 98%;
     --card: 0 0% 3.9%;
     --card-foreground: 0 0% 98%;

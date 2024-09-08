@@ -1,4 +1,4 @@
-import { Link } from "react-router-dom";
+import { Link, useLocation } from "react-router-dom";
 import { ModeToggle } from "../app-theme/mode-toggle";
 
 interface INavItems {
@@ -25,15 +25,19 @@ const navItems: INavItems[] = [
 ];
 
 export default function NavigationBar() {
+  const location = useLocation();
   return (
     <div className="flex justify-between items-center">
       <ul className="flex space-x-4">
         {navItems.map((item: INavItems) => {
+          const isActive = location.pathname === item.path;
           return (
             <Link
               key={item.key}
               to={item?.path}
-              className="cursor-pointer hover:underline decoration-zinc-400"
+              className={`cursor-pointer hover:underline decoration-zinc-400 ${
+                isActive ? "underline decoration-zinc-400" : ""
+              }`}
             >
               {item?.title}
             </Link>
