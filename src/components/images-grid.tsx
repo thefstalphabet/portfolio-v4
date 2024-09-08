@@ -1,5 +1,5 @@
 import mirrorSelfie from "../assets/mirror-selfie.jpg";
-import afterWorkoutSelfie from "../assets/after-workout-selfie.jpg";
+import workoutSelfie from "../assets/workout-selfie.jpg";
 import { Skeleton } from "./ui/skeleton";
 
 export default function ImagesGrid() {
@@ -15,7 +15,7 @@ export default function ImagesGrid() {
         Empty for Now
       </Skeleton>
       <div className="w-full h-full flex-center bento-item row-span-2 flex-center">
-        <img src={afterWorkoutSelfie} className="object-cover h-full w-full" />
+        <img src={workoutSelfie} className="object-cover h-full w-full" />
       </div>
       <Skeleton className="flex justify-center items-center bento-item row-span-2 animate-pulse flex-center">
         Empty for Now
