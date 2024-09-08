@@ -8,18 +8,18 @@ export default function ImagesGrid() {
       <Skeleton className="flex justify-center items-center">
         Empty for Now
       </Skeleton>
-      <div className="w-full h-full flex-center bento-item row-span-2 flex-center">
+      <div className="w-full h-full flex-center bento-item row-span-1 flex-center sm:row-span-2">
         <img src={mirrorSelfie} className="object-cover h-full w-full" />
       </div>
       <Skeleton className="flex justify-center items-center">
         Empty for Now
       </Skeleton>
-      <Skeleton className="flex justify-center items-center bento-item row-span-2 animate-pulse flex-center">
-        Empty for Now
-      </Skeleton>
       <div className="w-full h-full flex-center bento-item row-span-2 flex-center">
         <img src={afterWorkoutSelfie} className="object-cover h-full w-full" />
       </div>
+      <Skeleton className="flex justify-center items-center bento-item row-span-2 animate-pulse flex-center">
+        Empty for Now
+      </Skeleton>
       <Skeleton className="flex justify-center items-center">
         Empty for Now
       </Skeleton>

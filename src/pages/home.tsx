@@ -5,7 +5,7 @@ import Job from "../components/job";
 
 export default function Home() {
   return (
-    <div className="grid gap-7">
+    <div className="grid gap-12">
       <Bio />
       <ImagesGrid />
       <Job />
