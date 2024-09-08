@@ -16,8 +16,8 @@ export default function Projects() {
               Link
             </Link>
           </h5>
-          <p className="text-neutral-600">Js, React, Node, AntD, Nest</p>
-          <ul className="px-3 text-neutral-600">
+          <p>Js, React, Node, AntD, Nest</p>
+          <ul className="px-3 ">
             <li>- A subscription-based web app for tiffin service.</li>
           </ul>
         </div>
@@ -32,10 +32,10 @@ export default function Projects() {
               Link
             </Link>
           </h5>
-          <p className="text-neutral-600">
+          <p >
             Js, React, Node, Express, Socket.io, Chakra UI
           </p>
-          <ul className="px-3 text-neutral-600">
+          <ul className="px-3 ">
             <li>
               - A MERN app for chatting with JWT Auth, single/group chat
               features, notifications, and typing indicators.
@@ -53,8 +53,8 @@ export default function Projects() {
               Link
             </Link>
           </h5>
-          <p className="text-neutral-600">Js, React, Node, Express</p>
-          <ul className="px-3 text-neutral-600">
+          <p >Js, React, Node, Express</p>
+          <ul className="px-3 ">
             <li>- A MERN app for searching movies, with JWT Auth.</li>
           </ul>
         </div>

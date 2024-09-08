@@ -9,9 +9,9 @@ export default function Experience() {
             <h5 className="font-semibold">
               TIAKJ | Software Developer Engineer - 1
             </h5>
-            <p>Remote | March 2022 - June 2024</p>
+            <p className="text-xs">Remote | March 2022 - June 2024</p>
           </div>
-          <ul className="px-3 text-neutral-600">
+          <ul className="px-3 ">
             <li>
               - Created reusable components library using Ant Design, integrated
               it with Uniview, reducing development time by <strong>70%</strong>
@@ -34,9 +34,9 @@ export default function Experience() {
             <h5 className="font-semibold">
               GirlScript Summer of Code | Contributor
             </h5>
-            <p>Remote | March 2022 - May 2022</p>
+            <p className="text-xs">Remote | March 2022 - May 2022</p>
           </div>
-          <ul className="px-3 text-neutral-600">
+          <ul className="px-3 ">
             <li>
               - Contributed to Algoders Community repository{" "}
               <span className="italic">(https://rb.gy/93ihed)</span>
@@ -49,9 +49,9 @@ export default function Experience() {
             <h5 className="font-semibold">
               aNumak & Company | Full Stack Developer
             </h5>
-            <p>Remote | July 2021 - October 2021</p>
+            <p className="text-xs">Remote | July 2021 - October 2021</p>
           </div>
-          <ul className="px-3 text-neutral-600">
+          <ul className="px-3">
             <li>- Worked on a Hybrid Workspace project called Offeteria.</li>
             <li>
               - Developed wireframes into React code and utilized Material UI

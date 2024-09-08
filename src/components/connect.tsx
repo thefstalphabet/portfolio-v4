@@ -23,7 +23,7 @@ export default function Connect() {
   return (
     <div className="grid gap-5 mt-12">
       <h2 className="text-lg font-medium">Connect</h2>
-      <ul className="flex space-x-4">
+      <ul className="flex space-x-2">
         {connectItems.map((item: IConnectItems) => {
           return (
             <Link
