@@ -32,7 +32,7 @@ export default function CV() {
         className="inline fixed right-5 bottom-5"
         onClick={handleGeneratePDF}
       >
-        <MdFileDownload className="text-lg"/>
+        <MdFileDownload className="text-lg" />
       </Button>
       <div className="grid gap-4 pb-1 " ref={printRef}>
         <header className="text-center">
