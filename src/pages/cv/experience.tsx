@@ -13,17 +13,18 @@ export default function Experience() {
           </div>
           <ul className="px-3 ">
             <li>
-              - Created reusable components library using Ant Design, integrated
-              it with Uniview, reducing development time by <strong>70%</strong>
-              .
+              - Developed a reusable components library using Ant Design and
+              integrated it with Uniview, leading to a <strong>70%</strong>{" "}
+              reduction in development time.
             </li>
             <li>
-              - Created a <strong>Reusable</strong> API management class for
-              easy API calls and error handling.
+              - Designed a <strong>reusable</strong> API management class to
+              streamline API calls and facilitate error management.
             </li>
             <li>
-              - Created export functionality for <strong>PDF</strong> and{" "}
-              <strong>XML</strong> formats and developed HTML templates{" "}
+              - Implemented a reusable export functionality for{" "}
+              <strong>PDF</strong> and <strong>XML</strong> formats, along with
+              creating custom HTML templates,{" "}
               <span className="italic">(https://rb.gy/uc73gt)</span>.
             </li>
           </ul>
@@ -52,12 +53,15 @@ export default function Experience() {
             <p className="text-xs">Remote | July 2021 - October 2021</p>
           </div>
           <ul className="px-3">
-            <li>- Worked on a Hybrid Workspace project called Offeteria.</li>
             <li>
-              - Developed wireframes into React code and utilized Material UI
-              with product themes.
+              - Contributed to a Hybrid Workspace project titled{" "}
+              <strong>Offeteria</strong>.
             </li>
-            <li>- Managed data using Redux.</li>
+            <li>
+              - Translated wireframes into React code and implemented Material
+              UI with customised product themes.
+            </li>
+            <li>- Handled data management efficiently using Redux.</li>
           </ul>
         </div>
       </div>

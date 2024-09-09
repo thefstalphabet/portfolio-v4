@@ -43,7 +43,7 @@ export default function CV() {
           </div>
           <div className="flex justify-center gap-2 mt-2 text-sm">
             <Link
-              to="https://akash-patel-portfolio.netlify.app/"
+              to="https://akaxh.vercel.app/"
               target="_blank"
               rel="noopener noreferrer"
             >
