@@ -21,16 +21,18 @@ export default function Job() {
       <main>
         <ul className="list-disc list-inside text pl-2 leading-7">
           <li className="marker:text-neutral-500">
-            Created reusable components library using Ant Design, integrated it
-            with Uniview, reducing development time by 70%.
+            Developed a reusable components library using Ant Design and
+            integrated it with Uniview, leading to a 70% reduction in
+            development time.
           </li>
           <li className="marker:text-neutral-500">
-            Created a Reusable API management class for easy making API calls
-            and error management.
+            Designed a reusable API management class to streamline API calls and
+            facilitate error management.
           </li>
           <li className="marker:text-neutral-500">
-            Created Export PDF and XML functionality and developed HTML
-            templates <i>(https://rb.gy/uc73gt)</i>.
+            Implemented a reusable export functionality for PDF and XML formats, along with
+            creating custom HTML templates,{" "}
+            (https://rb.gy/uc73gt).
           </li>
         </ul>
       </main>

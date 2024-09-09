@@ -14,16 +14,16 @@ export default function Bio() {
       </header>
       <main>
         <p>
-          I'm a Software Enginer with a passion for building high-quality, full
-          stack applications.
+          I am a Software Engineer with a deep passion for developing
+          high-quality, full-stack applications.
         </p>
         <p>
-          My goal is to deliver exceptional products with the best user
-          experience in mind.
+          My objective is to deliver exceptional products with a strong focus on
+          providing the best possible user experience.
         </p>
         <p className="my-4">
-          I specialize in building web based applications, usually having to
-          pick between my two favorites:{" "}
+          I specialize in developing web-based applications, with a preference
+          for working with my two favourite frameworks:{" "}
           <Badge variant="outline">
             <img className="w-3 mr-2" src={reactLogo} alt="react logo" />
             React
@@ -32,13 +32,12 @@ export default function Bio() {
           <Badge variant="outline">
             <img className="w-3 mr-2" src={vueLogo} alt="vue logo" />
             Vue
-          </Badge>
-          . But no matter what,{" "}
+          </Badge>. However, regardless of the choice,{" "}
           <Badge variant="outline">
             <img className="w-3 mr-2" src={supabaseLogo} alt="supabase logo" />
             Supabase
           </Badge>{" "}
-          is always my go-to for the backend.
+          remains my preferred solution for the backend.
         </p>
       </main>
     </div>
