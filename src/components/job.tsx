@@ -19,20 +19,24 @@ export default function Job() {
         <p className="text-sm text-neutral-500">March-2022 - June-2024</p>
       </header>
       <main>
-        <ul className="list-disc list-inside text pl-2 leading-7">
+        <ul className="list-disc list-outside text pl-5 leading-7">
           <li className="marker:text-neutral-500">
-            Developed a reusable components library using Ant Design and
-            integrated it with Uniview, leading to a 70% reduction in
-            development time.
+            Worked on two SaaS products: UNITYdx, which provides automation and
+            monitoring features for the Unity Safety document exchange to
+            facilitate the sharing of safety documents, and UNITYai.Lit, which
+            facilitates literature management activities.
           </li>
           <li className="marker:text-neutral-500">
-            Designed a reusable API management class to streamline API calls and
-            facilitate error management.
+            <span className="font-semibold">Responsibilities:</span> Designing
+            and developing user interfaces using React and Figma, creating and
+            managing REST APIs in the backend using Nest, preparing technical
+            and architectural documents, and managing staging, testing, and
+            production deployments.
           </li>
           <li className="marker:text-neutral-500">
-            Implemented a reusable export functionality for PDF and XML formats, along with
-            creating custom HTML templates,{" "}
-            (https://rb.gy/uc73gt).
+            Developed a common reusable components library using Ant Design,
+            resulting in an 80% reduction in UI development time across both
+            products.
           </li>
         </ul>
       </main>
