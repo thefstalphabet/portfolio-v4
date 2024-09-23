@@ -9,8 +9,10 @@ export default function Education() {
             <h5 className="font-semibold">
               Takshshila Institute of Engineering & Technology
             </h5>
-            <p>Computer Science Bachelors</p>
-            <p className="italic ">GPA: 7.61</p>
+            <div className="text-xs">
+              <p>Computer Science Bachelors</p>
+              <p className="italic ">GPA: 7.61</p>
+            </div>
           </div>
           <div className="text-right text-xs">
             <p>07/2018 - 06/2022</p>
@@ -22,8 +24,10 @@ export default function Education() {
             <h5 className="font-semibold">
               MKD Public Higher Secondary School
             </h5>
-            <p>12th M.P Board</p>
-            <p className="italic ">Percentage: 60%</p>
+            <div className="text-xs">
+              <p>12th M.P Board</p>
+              <p className="italic ">Percentage: 60%</p>
+            </div>
           </div>
           <div className="text-right text-xs">
             <p>07/2017 - 04/2018</p>
