@@ -47,8 +47,7 @@ export default function Experience() {
         <div>
           <div>
             <div>
-              <span className="font-semibold">Full Stack Developer</span> @
-              <Link to="">Anumak & Company</Link>
+              <span className="font-semibold">Full Stack Developer</span> @ <Link to="">Anumak & Company</Link>
             </div>
             <p className="text-xs">Internship | 07/2022 - 10/2022</p>
           </div>
