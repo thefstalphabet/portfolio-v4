@@ -47,7 +47,7 @@ export default function CV() {
               target="_blank"
               rel="noopener noreferrer"
             >
-              Portfolio
+              Website
             </Link>
             |
             <Link
@@ -73,18 +73,10 @@ export default function CV() {
             >
               LeetCode
             </Link>
-            |
-            <Link
-              to="https://www.codechef.com/users/thefstalphabet"
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              CodeChef
-            </Link>
           </div>
         </header>
-        <Education />
         <Experience />
+        <Education />
         <Skills />
         <Projects />
         <Certifications />

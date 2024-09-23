@@ -12,9 +12,9 @@ export default function Skills() {
         </div>
         <div>
           <p>JavaScript, C++, TypeScript</p>
-          <p>React, Node, Nest, Redux, AntD, Chakra UI</p>
-          <p>Git, GitHub, JIRA, ChatGPT, Photoshop, Canva</p>
-          <p>MongoDB, SQL</p>
+          <p>React, Tailwind, Nest, Redux, Ant Design, SchadCn</p>
+          <p>Git, GitHub, Jira, Photoshop, Canva</p>
+          <p>MongoDB, PostgreSQL, Supabase</p>
         </div>
       </div>
     </div>

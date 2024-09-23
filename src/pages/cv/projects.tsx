@@ -6,22 +6,34 @@ export default function Projects() {
       <hr className="mt-2 mb-0.5 border-neutral-600" />{" "}
       <div className="text-sm">
         <div>
-          <h5 className="font-semibold">
-            Lunch Box |{" "}
+          <div className="flex gap-1">
+            <h5 className="font-semibold">Lunch Box | </h5>
             <Link
               to="https://tiffin-box.netlify.app/"
               target="_blank"
               rel="noopener noreferrer"
             >
-              Link
+              Url
             </Link>
-          </h5>
-          <p>Js, React, Node, AntD, Nest</p>
+          </div>
           <ul className="px-3 ">
-            <li>- A subscription-based web app for tiffin service.</li>
+            <div className="flex gap-2">
+              <p>•</p>
+              <li>
+                Creating a SaaS product that offers working professionals and
+                students an easy way to manage their daily meals.
+              </li>
+            </div>
+            <div className="flex gap-2">
+              <p>•</p>
+              <li>
+                Used react and ant design for developing user interfaces, nest
+                and mongodb for developing backend and rest APIs
+              </li>
+            </div>
           </ul>
         </div>
-        <div>
+        {/* <div>
           <h5 className="font-semibold">
             Chat Freely |{" "}
             <Link
@@ -32,14 +44,15 @@ export default function Projects() {
               Link
             </Link>
           </h5>
-          <p >
-            Js, React, Node, Express, Socket.io, Chakra UI
-          </p>
+          <p>Js, React, Node, Express, Socket.io, Chakra UI</p>
           <ul className="px-3 ">
-            <li>
-              - A MERN app for chatting with JWT Auth, single/group chat
-              features, notifications, and typing indicators.
-            </li>
+            <div className="flex gap-2">
+              <p>•</p>
+              <li>
+                A MERN app for chatting with JWT Auth, single/group chat
+                features, notifications, and typing indicators.
+              </li>
+            </div>
           </ul>
         </div>
         <div>
@@ -53,11 +66,14 @@ export default function Projects() {
               Link
             </Link>
           </h5>
-          <p >Js, React, Node, Express</p>
+          <p>Js, React, Node, Express</p>
           <ul className="px-3 ">
-            <li>- A MERN app for searching movies, with JWT Auth.</li>
+            <div className="flex gap-2">
+              <p>•</p>
+              <li>A MERN app for searching movies, with JWT Auth.</li>
+            </div>
           </ul>
-        </div>
+        </div> */}
       </div>
     </div>
   );

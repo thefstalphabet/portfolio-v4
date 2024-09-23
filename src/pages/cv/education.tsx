@@ -13,8 +13,8 @@ export default function Education() {
             <p className="italic ">GPA: 7.61</p>
           </div>
           <div className="text-right text-xs">
-            <p>Jabalpur, Madhya Pradesh</p>
-            <p>July 2018 - July 2022</p>
+            <p>07/2018 - 06/2022</p>
+            <p>Jabalpur, MP</p>
           </div>
         </div>
         <div className="flex justify-between">
@@ -26,8 +26,8 @@ export default function Education() {
             <p className="italic ">Percentage: 60%</p>
           </div>
           <div className="text-right text-xs">
-            <p>Narsinghpur, Madhya Pradesh</p>
-            <p>July 2017 - April 2018</p>
+            <p>07/2017 - 04/2018</p>
+            <p>Narsinghpur, MP</p>
           </div>
         </div>
       </div>

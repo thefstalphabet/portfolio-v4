@@ -1,3 +1,5 @@
+import { Link } from "react-router-dom";
+
 export default function Experience() {
   return (
     <div>
@@ -5,37 +7,79 @@ export default function Experience() {
       <hr className="mt-2 mb-0.5 border-neutral-600" />{" "}
       <div className="text-sm">
         <div>
-          <div className="flex justify-between">
-            <h5 className="font-semibold">
-              TIAKJ | Software Developer Engineer - 1
-            </h5>
-            <p className="text-xs">Remote | March 2022 - June 2024</p>
+          <div>
+            <div>
+              <span className="font-semibold">Software Developer Engineer</span>{" "}
+              @ <Link to="">TIkaj</Link>
+            </div>
+            <p className="text-xs">Full-time | 03/2022 - 06/2024</p>
           </div>
-          <ul className="px-3 ">
-            <li>
-              - Developed a reusable components library using Ant Design and
-              integrated it with Uniview, leading to a <strong>70%</strong>{" "}
-              reduction in development time.
-            </li>
-            <li>
-              - Designed a <strong>reusable</strong> API management class to
-              streamline API calls and facilitate error management.
-            </li>
-            <li>
-              - Implemented a reusable export functionality for{" "}
-              <strong>PDF</strong> and <strong>XML</strong> formats, along with
-              creating custom HTML templates,{" "}
-              <span className="italic">(https://rb.gy/uc73gt)</span>.
-            </li>
+          <ul className="pl-2">
+            <div className="flex gap-2">
+              <p>•</p>
+              <li>
+                Worked on two SaaS products: UNITYdx, which provides automation
+                and monitoring features for the Unity Safety document exchange
+                to facilitate the sharing of safety documents, and UNITYai.Lit,
+                which facilitates literature management activities.
+              </li>
+            </div>
+            <div className="flex gap-2">
+              <p>•</p>
+              <li>
+                <span className="font-semibold">Responsibilities:</span>{" "}
+                Designing and developing user interfaces using React and Figma,
+                creating and managing REST APIs in the backend using Nest,
+                preparing technical and architectural documents, and managing
+                staging, testing, and production deployments.
+              </li>
+            </div>
+            <div className="flex gap-2">
+              <p>•</p>
+              <li>
+                Developed a common reusable components library using Ant Design,
+                resulting in an 80% reduction in UI development time across both
+                products.
+              </li>
+            </div>
           </ul>
         </div>
-
         <div>
-          <div className="flex justify-between">
-            <h5 className="font-semibold">
-              GirlScript Summer of Code | Contributor
-            </h5>
-            <p className="text-xs">Remote | March 2022 - May 2022</p>
+          <div>
+            <div>
+              <span className="font-semibold">Full Stack Developer</span> @
+              <Link to="">Anumak & Company</Link>
+            </div>
+            <p className="text-xs">Internship | 07/2022 - 10/2022</p>
+          </div>
+          <ul className="pl-2">
+            <div className="flex gap-2">
+              <p>•</p>
+              <li>Worked on a SaaS product that offers hybrid workspaces</li>
+            </div>
+            <div className="flex gap-2">
+              <p>•</p>
+              <li>
+                <span className="font-semibold">Responsibilities:</span>{" "}
+                Designing and developing user interfaces.
+              </li>
+            </div>
+            <div className="flex gap-2">
+              <p>•</p>
+              <li>
+                Used MUI for pre-build components, and handling data
+                management efficiently using Redux.
+              </li>
+            </div>
+          </ul>
+        </div>
+        {/* <div>
+          <div>
+            <div>
+              <span className="font-semibold">Contibutor</span> @
+              <Link to="">GirlScript Summer of Code</Link>
+            </div>
+            <p className="text-xs">Part-time | 03/2022 - 06/2024</p>
           </div>
           <ul className="px-3 ">
             <li>
@@ -43,27 +87,7 @@ export default function Experience() {
               <span className="italic">(https://rb.gy/93ihed)</span>
             </li>
           </ul>
-        </div>
-
-        <div>
-          <div className="flex justify-between">
-            <h5 className="font-semibold">
-              aNumak & Company | Full Stack Developer
-            </h5>
-            <p className="text-xs">Remote | July 2021 - October 2021</p>
-          </div>
-          <ul className="px-3">
-            <li>
-              - Contributed to a Hybrid Workspace project titled{" "}
-              <strong>Offeteria</strong>.
-            </li>
-            <li>
-              - Translated wireframes into React code and implemented Material
-              UI with customised product themes.
-            </li>
-            <li>- Handled data management efficiently using Redux.</li>
-          </ul>
-        </div>
+        </div> */}
       </div>
     </div>
   );
