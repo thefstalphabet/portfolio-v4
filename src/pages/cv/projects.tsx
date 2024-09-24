@@ -16,7 +16,7 @@ export default function Projects() {
               Url
             </Link>
           </div>
-          <ul className="px-3 ">
+          <ul className="px-2">
             <div className="flex gap-2">
               <p>•</p>
               <li>
@@ -27,53 +27,12 @@ export default function Projects() {
             <div className="flex gap-2">
               <p>•</p>
               <li>
-                Used react and ant design for developing user interfaces, nest
-                and mongodb for developing backend and rest APIs
+                Used React and Ant design for developing user interfaces, Nest
+                and Mongodb for developing backend and REST APIs.
               </li>
             </div>
           </ul>
         </div>
-        {/* <div>
-          <h5 className="font-semibold">
-            Chat Freely |{" "}
-            <Link
-              to="https://github.com/thefstalphabet/chat-freely-client"
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              Link
-            </Link>
-          </h5>
-          <p>Js, React, Node, Express, Socket.io, Chakra UI</p>
-          <ul className="px-3 ">
-            <div className="flex gap-2">
-              <p>•</p>
-              <li>
-                A MERN app for chatting with JWT Auth, single/group chat
-                features, notifications, and typing indicators.
-              </li>
-            </div>
-          </ul>
-        </div>
-        <div>
-          <h5 className="font-semibold">
-            Moviepedia |{" "}
-            <Link
-              to="https://github.com/thefstalphabet/moviepedia"
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              Link
-            </Link>
-          </h5>
-          <p>Js, React, Node, Express</p>
-          <ul className="px-3 ">
-            <div className="flex gap-2">
-              <p>•</p>
-              <li>A MERN app for searching movies, with JWT Auth.</li>
-            </div>
-          </ul>
-        </div> */}
       </div>
     </div>
   );

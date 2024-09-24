@@ -10,7 +10,7 @@ export default function Experience() {
           <div>
             <div>
               <span className="font-semibold">Software Developer Engineer</span>{" "}
-              @ <Link to="">TIkaj</Link>
+              @ <Link to="https://www.tikaj.com/">Tikaj</Link>
             </div>
             <p className="text-xs">Full-time | 03/2022 - 06/2024</p>
           </div>
@@ -39,7 +39,8 @@ export default function Experience() {
               <li>
                 Developed a common reusable components library using Ant Design,
                 resulting in an 80% reduction in UI development time across both
-                products.
+                products. Created a reusable export feature for PDF and XML, and
+                designed multiple templates using Puppeteer on the backend.
               </li>
             </div>
           </ul>
@@ -47,27 +48,28 @@ export default function Experience() {
         <div>
           <div>
             <div>
-              <span className="font-semibold">Full Stack Developer</span> @ <Link to="">Anumak & Company</Link>
+              <span className="font-semibold">Full Stack Developer</span> @{" "}
+              <Link to="https://anumak.com">Anumak & Company</Link>
             </div>
             <p className="text-xs">Internship | 07/2022 - 10/2022</p>
           </div>
           <ul className="pl-2">
             <div className="flex gap-2">
               <p>•</p>
-              <li>Worked on a SaaS product that offers hybrid workspaces</li>
+              <li>Worked on a SaaS product that offers hybrid workspaces.</li>
             </div>
             <div className="flex gap-2">
               <p>•</p>
               <li>
                 <span className="font-semibold">Responsibilities:</span>{" "}
-                Designing and developing user interfaces.
+                Designing and developing user interfaces using Figma and React.
               </li>
             </div>
             <div className="flex gap-2">
               <p>•</p>
               <li>
-                Used MUI for pre-build components, and handling data
-                management efficiently using Redux.
+                Used MUI for pre-build components, and handling data management
+                efficiently using Redux.
               </li>
             </div>
           </ul>
