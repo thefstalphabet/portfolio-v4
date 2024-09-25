@@ -1,9 +1,12 @@
 import { Badge } from "./ui/badge";
 import reactLogo from "../assets/logos/react.svg";
-import vueLogo from "../assets/logos/vue.svg";
 import supabaseLogo from "../assets/logos/supabase.svg";
+import { useEffect } from "react";
+import { SiNextdotjs } from "react-icons/si";
 
 export default function Bio() {
+  useEffect(() => {}, []);
+
   return (
     <div className="grid gap-10">
       <header>
@@ -30,9 +33,10 @@ export default function Bio() {
           </Badge>{" "}
           and{" "}
           <Badge variant="outline">
-            <img className="w-3 mr-2" src={vueLogo} alt="vue logo" />
-            Vue
-          </Badge>. However, regardless of the choice,{" "}
+            <SiNextdotjs className="w-3 mr-2" />
+            Nest
+          </Badge>
+          . However, regardless of the choice{" "}
           <Badge variant="outline">
             <img className="w-3 mr-2" src={supabaseLogo} alt="supabase logo" />
             Supabase
