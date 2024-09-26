@@ -1,4 +1,4 @@
-import CV from "../pages/cv/cv";
+import CV from "../pages/cv";
 import Home from "../pages/home";
 import PageNotFound from "../pages/page-not-found";
 import Products from "../pages/products";
