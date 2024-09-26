@@ -12,7 +12,7 @@ export default function Certifications() {
             target="_blank"
             rel="noopener noreferrer"
           >
-            Url
+            view
           </Link>
         </div>
         <div className="flex gap-1">
@@ -22,7 +22,7 @@ export default function Certifications() {
             target="_blank"
             rel="noopener noreferrer"
           >
-            Url
+            view
           </Link>
         </div>
         <div className="flex gap-1">
@@ -32,7 +32,7 @@ export default function Certifications() {
             target="_blank"
             rel="noopener noreferrer"
           >
-            Url
+            view
           </Link>
         </div>
       </div>
