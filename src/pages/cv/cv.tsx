@@ -34,14 +34,14 @@ export default function CV() {
       >
         <MdFileDownload className="text-lg" />
       </Button>
-      <div className="grid gap-4 pb-1 " ref={printRef}>
+      <div className="grid gap-4 pb-1" ref={printRef}>
         <header className="text-center">
-          <h1 className="text-3xl font-bold">AKASH PATEL</h1>
-          <div className="flex justify-center gap-2 mt-2 flex-wrap text-sm">
+          <h1 className="text-2xl font-bold">AKASH PATEL</h1>
+          <div className="flex justify-center gap-1 mt-1 flex-wrap text-xs">
             <p>akashpatel10000@gmail.com</p>|<p>+918959996971</p>|
             <p>Jabalpur, Madhya Pradesh</p>
           </div>
-          <div className="flex justify-center gap-2 mt-2 text-sm">
+          <div className="flex justify-center gap-1 mt-1 text-xs">
             <Link
               to="https://akaxh.vercel.app/"
               target="_blank"
@@ -76,8 +76,8 @@ export default function CV() {
           </div>
         </header>
         <Experience />
-        <Education />
         <Skills />
+        <Education />
         <Projects />
         <Certifications />
       </div>
