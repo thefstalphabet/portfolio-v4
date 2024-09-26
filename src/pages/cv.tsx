@@ -1,13 +1,13 @@
 import { Link } from "react-router-dom";
 import { useRef } from "react";
-import { Button } from "../../components/ui/button";
 import { MdFileDownload } from "react-icons/md";
 import html2pdf from "html2pdf.js";
-import Education from "./education";
-import Experience from "./experience";
-import Skills from "./skills";
-import Certifications from "./certifications";
-import Projects from "./projects";
+import Education from "../components/cv/education";
+import Experience from "../components/cv/experience";
+import Skills from "../components/cv/skills";
+import Certifications from "../components/cv/certifications";
+import Projects from "../components/cv/projects";
+import { Button } from "../components/ui/button";
 
 export default function CV() {
   const printRef = useRef<HTMLDivElement>(null);
