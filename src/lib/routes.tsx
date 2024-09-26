@@ -6,6 +6,7 @@ import Products from "../pages/products";
 export interface IRoutes {
   path: string;
   element: JSX.Element;
+  navigationBar?: boolean;
 }
 const routes: Array<IRoutes> = [
   {
@@ -15,6 +16,7 @@ const routes: Array<IRoutes> = [
   {
     path: "/",
     element: <Home />,
+    navigationBar: true,
   },
   {
     path: "cv",
@@ -23,6 +25,7 @@ const routes: Array<IRoutes> = [
   {
     path: "/products",
     element: <Products />,
+    navigationBar: true,
   },
 ];
 
