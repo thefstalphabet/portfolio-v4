@@ -3,17 +3,15 @@ import { Link } from "react-router-dom";
 export default function Experience() {
   return (
     <div>
-      <h4 className="font-bold">Experience</h4>
-      <hr className="mt-2 mb-0.5 border-neutral-600" />{" "}
+      <h1 className="font-semibold">Experience</h1>
+      <hr className="mt-2 mb-0.5 border-neutral-600" />
       <div className="text-sm">
         <div>
           <div>
-            <div>
-              <span className="font-semibold">Software Developer Engineer</span>{" "}
-              @ <Link to="https://www.tikaj.com/">Tikaj</Link>
-            </div>
-            <p className="text-xs">Full-time | 03/2022 - 06/2024</p>
+            <span className="font-semibold">Software Developer Engineer</span> @{" "}
+            <Link to="https://www.tikaj.com/">Tikaj</Link>
           </div>
+          <p className="text-xs">Full-time | 03/2022 - 06/2024</p>
           <ul className="pl-2">
             <div className="flex gap-2">
               <p>•</p>
@@ -47,12 +45,10 @@ export default function Experience() {
         </div>
         <div>
           <div>
-            <div>
-              <span className="font-semibold">Full Stack Developer</span> @{" "}
-              <Link to="https://anumak.com">Anumak & Company</Link>
-            </div>
-            <p className="text-xs">Internship | 07/2022 - 10/2022</p>
+            <span className="font-semibold">Full Stack Developer</span> @{" "}
+            <Link to="https://anumak.com">Anumak & Company</Link>
           </div>
+          <p className="text-xs">Internship | 07/2022 - 10/2022</p>
           <ul className="pl-2">
             <div className="flex gap-2">
               <p>•</p>
@@ -61,7 +57,7 @@ export default function Experience() {
             <div className="flex gap-2">
               <p>•</p>
               <li>
-                <span className="font-semibold">Responsibilities:</span>{" "}
+                <span className="font-semibold">Responsibilities:</span>
                 Designing and developing user interfaces using Figma and React.
               </li>
             </div>
@@ -76,12 +72,10 @@ export default function Experience() {
         </div>
         {/* <div>
           <div>
-            <div>
-              <span className="font-semibold">Contibutor</span> @
-              <Link to="">GirlScript Summer of Code</Link>
-            </div>
-            <p className="text-xs">Part-time | 03/2022 - 06/2024</p>
+            <span className="font-semibold">Contibutor</span> @
+            <Link to="">GirlScript Summer of Code</Link>
           </div>
+          <p className="text-xs">Part-time | 03/2022 - 06/2024</p>
           <ul className="px-3 ">
             <li>
               - Contributed to Algoders Community repository{" "}

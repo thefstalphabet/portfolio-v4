@@ -1,7 +1,7 @@
 export default function Education() {
   return (
     <div>
-      <h4 className="font-bold">Education</h4>
+      <h1 className="font-bold">Education</h1>
       <hr className="mt-2 mb-0.5 border-neutral-600" />
       <div className="text-sm">
         <div className="flex justify-between">
