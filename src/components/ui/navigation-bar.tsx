@@ -15,7 +15,7 @@ const navItems: INavItems[] = [
   {
     key: 2,
     title: "CV",
-    path: "/cv",
+    path: "https://drive.google.com/drive/folders/1ekCX6aGKJBQErpf7UOv-TjwxRxGj_AsI?usp=sharing",
   },
   {
     key: 3,

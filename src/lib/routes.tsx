@@ -1,4 +1,3 @@
-import CV from "../pages/cv";
 import Home from "../pages/home";
 import PageNotFound from "../pages/page-not-found";
 import Products from "../pages/products";
@@ -17,10 +16,6 @@ const routes: Array<IRoutes> = [
     path: "/",
     element: <Home />,
     navigationBar: true,
-  },
-  {
-    path: "cv",
-    element: <CV />,
   },
   {
     path: "/products",
