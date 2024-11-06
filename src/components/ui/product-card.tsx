@@ -18,7 +18,7 @@ export default function ProductCard(props: {
       className={`relative flex justify-center items-center bento-item flex-center ${view}-span-${size}`}
     >
       <img src={image} className="rounded-md object-cover h-full w-full" />
-      <div className="absolute inset-0 bg-stone-800 bg-opacity-50 flex justify-center items-center opacity-0 hover:opacity-100 transition-opacity duration-300">
+      <div className="absolute inset-0 bg-stone-800 bg-opacity-50 flex justify-center items-center opacity-0 hover:opacity-100 transition-opacity duration-300 rounded-md">
         <div className="flex gap-4">
           <Link to={hostUrl} target="_blank">
             <FaEarthAmericas className="text-3xl cursor-pointer fill-white" />
@@ -42,7 +42,7 @@ export default function ProductCard(props: {
           }}
           className="fixed inset-0 flex items-center justify-center bg-black bg-opacity-50 z-50"
         >
-          <img src={image} className="rounded-md h-[80vh]" />
+          <img src={image} className="rounded-md w-[90vw] md:w-[80vw]" />
         </div>
       )}
     </div>
