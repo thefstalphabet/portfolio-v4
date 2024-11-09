@@ -63,4 +63,20 @@
   body {
     @apply bg-background text-foreground;
   }
+
+  /* global styles for scroll bar */
+  ::-webkit-scrollbar {
+    width: 5px;
+  }
+  ::-webkit-scrollbar-track {
+    background: hsl(var(--background));
+    border-radius: 5px;
+  }
+  ::-webkit-scrollbar-thumb {
+    background: hsl(var(--foreground));
+    border-radius: 10px;
+  }
+  ::-webkit-scrollbar-thumb:hover {
+    background: hsl(var(--muted-foreground));
+  }
 }
