@@ -2,7 +2,7 @@ import { Badge } from "./ui/badge";
 import reactLogo from "../assets/logos/react.svg";
 import supabaseLogo from "../assets/logos/supabase.svg";
 import { useEffect } from "react";
-import { SiNextdotjs } from "react-icons/si";
+import { SiNestjs  } from "react-icons/si";
 
 export default function Bio() {
   useEffect(() => {}, []);
@@ -33,7 +33,7 @@ export default function Bio() {
           </Badge>{" "}
           and{" "}
           <Badge variant="outline">
-            <SiNextdotjs className="w-3 mr-2" />
+            <SiNestjs fill="#E11E4D" className="w-3 mr-2" />
             Nest
           </Badge>
           . However, regardless of the choice{" "}
