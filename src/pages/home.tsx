@@ -5,7 +5,7 @@ import Job from "../components/job";
 
 export default function Home() {
   return (
-    <div className="grid gap-12">
+    <div className="grid gap-12 animate-fade">
       <Bio />
       <ImagesGrid />
       <Job />

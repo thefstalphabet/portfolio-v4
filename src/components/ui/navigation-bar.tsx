@@ -27,7 +27,7 @@ const navItems: INavItems[] = [
 export default function NavigationBar() {
   const location = useLocation();
   return (
-    <div className="flex justify-between items-center">
+    <div className="flex justify-between items-center animate-fade">
       <ul className="flex space-x-4">
         {navItems.map((item: INavItems) => {
           const isActive = location.pathname === item.path;
