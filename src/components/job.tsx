@@ -35,7 +35,7 @@ export default function Job() {
           </li>
           <li className="marker:text-neutral-500">
             Developed a common reusable components library using Ant Design,
-            resulting in an 80% reduction in UI development time across both
+            resulting in an 80% reduction in front-end development time across both
             products.
           </li>
         </ul>
