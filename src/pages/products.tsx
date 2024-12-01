@@ -6,7 +6,7 @@ import ProductCard from "../components/ui/product-card";
 
 export default function Products() {
   return (
-    <div className="w-full grid grid-cols-3 sm:grid-cols-3 grid-rows-4 sm:grid-rows-3 h-[668px] sm:h-[800px] gap-4 slide-in-delay w-ful">
+    <div className="w-full grid grid-cols-3 sm:grid-cols-3 grid-rows-4 sm:grid-rows-3 h-[668px] sm:h-[800px] gap-2 slide-in-delay animate-fade">
       <ProductCard
         view="col"
         size={2}
