@@ -2,6 +2,7 @@ import { useState } from "react";
 import { FaGithub } from "react-icons/fa";
 import { FaEarthAmericas } from "react-icons/fa6";
 import { GrView } from "react-icons/gr";
+import { RxCrossCircled } from "react-icons/rx";
 import { Link } from "react-router-dom";
 
 export default function ProductCard(props: {
@@ -36,13 +37,16 @@ export default function ProductCard(props: {
         </div>
       </div>
       {popupVisibility && (
-        <div
-          onClick={() => {
-            setPopupVisibility(false);
-          }}
-          className="fixed inset-0 flex items-center justify-center bg-black bg-opacity-50 z-50"
-        >
-          <img src={image} className="rounded-md w-[90vw] md:w-[80vw]" />
+        <div className="flex flex-col gap-3 justify-center items-center fixed inset-0 bg-black bg-opacity-50 z-50">
+          <div>
+            <img src={image} className="rounded-md w-[90vw] md:w-[50vw]" />
+          </div>
+          <RxCrossCircled
+            onClick={() => {
+              setPopupVisibility(false);
+            }}
+            className="cursor-pointer text-5xl"
+          />
         </div>
       )}
     </div>
