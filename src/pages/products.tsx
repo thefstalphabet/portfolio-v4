@@ -8,7 +8,7 @@ import Connect from "../components/connect";
 export default function Products() {
   return (
     <>
-      <div className="w-full grid grid-cols-3 sm:grid-cols-3 grid-rows-4 sm:grid-rows-3 h-[668px] sm:h-[800px] gap-2 slide-in-delay animate-fade">
+      <div className="relative w-full grid grid-cols-3 sm:grid-cols-3 grid-rows-4 sm:grid-rows-3 h-[668px] sm:h-[800px] gap-2 slide-in-delay animate-fade">
         <ProductCard
           view="col"
           size={2}
