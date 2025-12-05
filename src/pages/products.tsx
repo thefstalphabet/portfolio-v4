@@ -1,6 +1,7 @@
 import { Skeleton } from "../components/ui/skeleton";
 import getHired from "../assets/products/get-hired.jpg";
 import tiffinBox from "../assets/products/tiffin-box.jpg";
+import testimolio from "../assets/products/testimolio.png";
 import portfolio from "../assets/products/portfolio.jpg";
 import ProductCard from "../components/ui/product-card";
 import Connect from "../components/connect";
@@ -33,9 +34,16 @@ export default function Products() {
           githubUrl="https://github.com/thefstalphabet/tiffin-box-ui"
           hostUrl="https://tiffin-box.netlify.app/"
         />
-        <Skeleton className="flex justify-center items-center bento-item col-span-2 animate-pulse flex-center">
+        {/* <Skeleton className="flex justify-center items-center bento-item col-span-2 animate-pulse flex-center">
           Empty for Now
-        </Skeleton>
+        </Skeleton> */}
+        <ProductCard
+          view="col"
+          size={2}
+          image={testimolio}
+          githubUrl="https://github.com/thefstalphabet/testimolio"
+          hostUrl="https://testimolio.vercel.app/"
+        />
         <Skeleton className="flex justify-center items-center ">
           Empty for Now
         </Skeleton>
